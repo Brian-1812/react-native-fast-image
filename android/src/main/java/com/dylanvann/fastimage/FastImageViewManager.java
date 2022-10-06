@@ -47,7 +47,7 @@ import static com.dylanvann.fastimage.FastImageRequestListener.REACT_ON_LOAD_EVE
 class FastImageViewManager extends SimpleViewManager<FastImageViewWithUrl> implements FastImageProgressListener {
 
     private static final String REACT_CLASS = "FastImageView";
-    private static final String REACT_ON_LOAD_START_EVENT = "onFastImageLoadStart";
+    public static final String REACT_ON_LOAD_START_EVENT = "onFastImageLoadStart";
     private static final String REACT_ON_PROGRESS_EVENT = "onFastImageProgress";
     private static final Map<String, List<FastImageViewWithUrl>> VIEWS_FOR_URLS = new WeakHashMap<>();
 
